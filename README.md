@@ -109,7 +109,7 @@ An About page explains the purpose of the platform and how the verification work
 ## Local Setup
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/truthlens.git
+git clone https://github.com/ashrafsk359/truthlens.git
 cd truthlens
 npm install
 npm run dev
