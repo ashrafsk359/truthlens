@@ -4,7 +4,7 @@ TruthLens is an AI-powered fact-checking platform built to help users quickly ve
 
 It was designed as a practical response to the growing spread of misinformation, while also serving as a modern full-stack project built with production-ready tools.
 
-**Live Demo:** https://YOUR-LIVE-LINK.vercel.app
+**Live Demo:** https://truthlens-nu-ebon.vercel.app/
 
 ---
 
