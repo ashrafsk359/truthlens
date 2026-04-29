@@ -1,0 +1,20 @@
+TruthLens QuickCheck Fallback Patch
+=====================================
+
+FILES CHANGED
+-------------
+app/api/verify/route.ts
+  - On URL scrape failure, no longer returns 422
+  - Falls back to title+description as claim text
+  - Marks response with _usedFallback flag
+
+components/ui/QuickCheckModal.tsx
+  - Passes article title as manualText for fallback analysis
+  - Detects _usedFallback in API response
+  - Shows "Using headline-based analysis" amber note in result
+
+RESULT
+------
+News cards that previously showed "Could not extract content"
+now complete analysis using the headline and description.
+Hard error only shown if both scraping and fallback fail.
