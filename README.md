@@ -1,63 +1,101 @@
 # TruthLens
 
-TruthLens is an AI-powered fact-checking platform built to help users quickly assess the credibility of online claims, headlines, URLs, and trending stories. It combines evidence retrieval, source comparison, and structured AI reasoning to present clear verdicts in a fast and user-friendly experience.
+TruthLens is an AI-powered fact-checking platform built to help users quickly verify online claims, headlines, URLs, and trending stories through structured analysis and evidence-based reasoning.
+
+It was designed as a practical response to the growing spread of misinformation, while also serving as a modern full-stack project built with production-ready tools.
 
 **Live Demo:** https://YOUR-LIVE-LINK.vercel.app
 
 ---
 
-## Overview
+## Why TruthLens?
 
-Misinformation spreads quickly across social platforms, messaging apps, and news feeds. TruthLens was created as a practical response to that problem — giving users a simple way to verify information before sharing or trusting it.
-
-The platform is designed to be accessible for everyday users while also demonstrating a modern full-stack implementation using real-world APIs, authentication, and production deployment workflows.
+False or misleading information can spread faster than corrections. TruthLens gives users a simple way to pause, verify, and make better decisions before trusting or sharing content.
 
 ---
 
-## Key Features
+## Homepage Experience
 
-- **Claim Verification**  
-  Analyze text-based claims and receive a verdict with supporting reasoning.
+The landing page is designed to feel clean, trustworthy, and easy to use from the first interaction.
 
-- **URL & Article Checking**  
-  Submit article links for content-based credibility analysis.
+![Homepage](screenshots/home.png)
 
-- **Quick Fact Check**  
-  Perform fast checks on trending headlines directly from the Signals page.
+---
 
-- **Signals Feed**  
-  Discover current news topics and rapidly evaluate emerging stories.
+## Core Verification Engine
 
-- **Credibility Score**  
-  Each result includes a confidence score to help interpret reliability.
+Users can submit claims or statements and receive:
 
-- **User Dashboard**  
-  Logged-in users can review previous checks and saved items.
+- Verdict classification  
+- Credibility score  
+- AI-generated reasoning summary  
+- Supporting or conflicting evidence signals
 
-- **Authentication**  
-  Secure sign-in with email and Google authentication.
+![Verify Claim](screenshots/verify_page.png)
 
-- **Theme Support**  
-  Clean light and dark mode experience across devices.
+---
 
-- **Responsive Design**  
-  Optimized for desktop, tablet, and mobile screens.
+## Quick Fact Check
+
+For faster checks, users can instantly verify trending headlines directly from the Signals page without manually copying content.
+
+![Quick Fact Check](screenshots/quick_fact_check.png)
+
+---
+
+## Signals Feed
+
+TruthLens includes a live signals page that surfaces current stories and topics users may want to investigate quickly.
+
+![Signals Feed](screenshots/trending.png)
+
+---
+
+## User Dashboard
+
+Authenticated users can access a personal dashboard to review saved checks, previous activity, and usage history.
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Authentication
+
+Secure sign-in is supported through email and Google authentication.
+
+![Login](screenshots/auth.png)
+
+---
+
+## Dark Mode Experience
+
+The platform includes a polished dark theme for comfortable usage across devices and environments.
+
+![Dark Mode](screenshots/home_dark_mode.png)
+
+---
+
+## About & Transparency
+
+An About page explains the purpose of the platform and how the verification workflow is approached.
+
+![About Page](screenshots/about.png)
 
 ---
 
 ## How It Works
 
-1. A user submits a claim, URL, or trending topic.  
-2. Relevant evidence and contextual signals are gathered.  
-3. AI reasoning evaluates consistency, credibility, and contradictions.  
-4. TruthLens returns a structured result with score, verdict, and summary.
+1. User submits a claim, URL, or topic  
+2. Relevant evidence signals are retrieved  
+3. AI evaluates consistency, context, and contradictions  
+4. TruthLens returns a structured result with score and verdict
 
 ---
 
 ## Technology Stack
 
-| Layer | Tools Used |
-|------|------------|
+| Layer | Tools |
+|------|------|
 | Frontend | Next.js 14, TypeScript |
 | Styling | Tailwind CSS |
 | Backend | Next.js API Routes |
@@ -68,35 +106,7 @@ The platform is designed to be accessible for everyday users while also demonstr
 
 ---
 
-## Screenshots
-
-### Home
-Add: `screenshots/home.png`
-
-### Login
-Add: `screenshots/login.png`
-
-### Verify Claim
-Add: `screenshots/verify.png`
-
-### Quick Fact Check
-Add: `screenshots/quick-check.png`
-
-### Signals Feed
-Add: `screenshots/signals.png`
-
-### Dashboard
-Add: `screenshots/dashboard.png`
-
-### About Page
-Add: `screenshots/about.png`
-
-### Dark Mode
-Add: `screenshots/dark-home.png`
-
----
-
-## Local Development
+## Local Setup
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/truthlens.git
